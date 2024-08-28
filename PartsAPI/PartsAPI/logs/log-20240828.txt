@@ -1,0 +1,130 @@
+2024-08-28 14:37:23.665 +12:00 [INF] Now listening on: https://localhost:7267
+2024-08-28 14:37:23.724 +12:00 [INF] Now listening on: http://localhost:5174
+2024-08-28 14:37:23.727 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-28 14:37:23.729 +12:00 [INF] Hosting environment: Development
+2024-08-28 14:37:23.730 +12:00 [INF] Content root path: C:\Users\Nim\source\repos\PartsAPI\PartsAPI
+2024-08-28 14:37:25.746 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger - null null
+2024-08-28 14:37:26.313 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger - 301 0 null 579.6757ms
+2024-08-28 14:37:26.324 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - null null
+2024-08-28 14:37:26.521 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - 200 null text/html;charset=utf-8 196.3328ms
+2024-08-28 14:37:26.531 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui-bundle.js - null null
+2024-08-28 14:37:26.531 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui.css - null null
+2024-08-28 14:37:26.531 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-28 14:37:26.648 +12:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-28 14:37:26.651 +12:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-28 14:37:26.656 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 124.8935ms
+2024-08-28 14:37:26.659 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui.css - 200 143943 text/css 127.9369ms
+2024-08-28 14:37:26.691 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-28 14:37:26.694 +12:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-28 14:37:26.700 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 169.4091ms
+2024-08-28 14:37:26.709 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 17.6567ms
+2024-08-28 14:37:26.721 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - null null
+2024-08-28 14:37:26.885 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.2593ms
+2024-08-28 14:37:27.210 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - null null
+2024-08-28 14:37:27.272 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/favicon-32x32.png - null null
+2024-08-28 14:37:27.277 +12:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-28 14:37:27.280 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/favicon-32x32.png - 200 628 image/png 7.9733ms
+2024-08-28 14:37:27.399 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.2112ms
+2024-08-28 14:37:41.130 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 14:37:41.143 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 14:37:41.170 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 14:37:41.314 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 14:37:41.323 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.073ms.
+2024-08-28 14:37:41.328 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 14:37:41.346 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 169.7302ms
+2024-08-28 14:37:41.349 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 14:37:41.353 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 222.7274ms
+2024-08-28 14:38:19.867 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7267/api/Parts - application/json 80
+2024-08-28 14:38:19.873 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.AddPart (PartsAPI)'
+2024-08-28 14:38:19.885 +12:00 [INF] Route matched with {action = "AddPart", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddPart(PartsAPI.Models.Part) on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 14:38:20.005 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.AddPart (PartsAPI) - Validation state: "Valid"
+2024-08-28 14:38:20.009 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.AddPart (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.2563ms.
+2024-08-28 14:38:20.012 +12:00 [INF] Executing OkObjectResult, writing value of type 'PartsAPI.Models.Part'.
+2024-08-28 14:38:20.015 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.AddPart (PartsAPI) in 126.1512ms
+2024-08-28 14:38:20.017 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.AddPart (PartsAPI)'
+2024-08-28 14:38:20.019 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 151.6979ms
+2024-08-28 14:38:31.373 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 14:38:31.378 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 14:38:31.382 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 14:38:31.409 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 14:38:31.413 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0099ms.
+2024-08-28 14:38:31.414 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 14:38:31.416 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 29.7155ms
+2024-08-28 14:38:31.418 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 14:38:31.419 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 47.144ms
+2024-08-28 17:59:41.423 +12:00 [INF] Now listening on: https://localhost:7267
+2024-08-28 17:59:41.526 +12:00 [INF] Now listening on: http://localhost:5174
+2024-08-28 17:59:41.535 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-28 17:59:41.539 +12:00 [INF] Hosting environment: Development
+2024-08-28 17:59:41.542 +12:00 [INF] Content root path: C:\Users\Nim\source\repos\PartsAPI\PartsAPI
+2024-08-28 17:59:42.582 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/index.html - null null
+2024-08-28 17:59:43.222 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/index.html - 200 null text/html;charset=utf-8 646.4298ms
+2024-08-28 17:59:43.249 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_vs/browserLink - null null
+2024-08-28 17:59:43.249 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-28 17:59:43.280 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 30.3311ms
+2024-08-28 17:59:43.382 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.4242ms
+2024-08-28 17:59:43.528 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - null null
+2024-08-28 17:59:43.700 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.9169ms
+2024-08-28 18:03:14.681 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 18:03:14.699 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:03:14.754 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:03:15.017 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:03:15.030 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4871ms.
+2024-08-28 18:03:15.051 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 18:03:15.084 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 320.6131ms
+2024-08-28 18:03:15.087 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:03:15.089 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 409.6007ms
+2024-08-28 18:04:09.180 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7267/api/Parts - application/json 79
+2024-08-28 18:04:09.202 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.AddPart (PartsAPI)'
+2024-08-28 18:04:09.218 +12:00 [INF] Route matched with {action = "AddPart", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddPart(PartsAPI.Models.Part) on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:04:09.410 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.AddPart (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:04:09.415 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.AddPart (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.766ms.
+2024-08-28 18:04:09.421 +12:00 [INF] Executing OkObjectResult, writing value of type 'PartsAPI.Models.Part'.
+2024-08-28 18:04:09.426 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.AddPart (PartsAPI) in 201.39ms
+2024-08-28 18:04:09.430 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.AddPart (PartsAPI)'
+2024-08-28 18:04:09.433 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 252.8647ms
+2024-08-28 18:04:21.370 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 18:04:21.375 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:04:21.377 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:04:21.417 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:04:21.423 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0177ms.
+2024-08-28 18:04:21.428 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 18:04:21.432 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 51.1392ms
+2024-08-28 18:04:21.435 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:04:21.437 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 66.4728ms
+2024-08-28 18:07:56.741 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 18:07:56.766 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:07:56.768 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:07:56.812 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:07:56.815 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0275ms.
+2024-08-28 18:07:56.821 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 18:07:56.825 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 51.5903ms
+2024-08-28 18:07:56.829 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:07:56.832 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 98.2984ms
+2024-08-28 18:08:38.755 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 18:08:38.772 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:08:38.773 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:08:38.813 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:08:38.816 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0175ms.
+2024-08-28 18:08:38.823 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 18:08:38.827 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 51.6302ms
+2024-08-28 18:08:38.854 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:08:38.856 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 100.6232ms
+2024-08-28 18:08:40.304 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 18:08:40.308 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:08:40.310 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:08:40.342 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:08:40.345 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.015ms.
+2024-08-28 18:08:40.350 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 18:08:40.355 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 42.7305ms
+2024-08-28 18:08:40.359 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:08:40.363 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 58.9879ms
+2024-08-28 18:08:41.386 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7267/api/Parts - null null
+2024-08-28 18:08:41.392 +12:00 [INF] Executing endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:08:41.394 +12:00 [INF] Route matched with {action = "GetParts", controller = "Parts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetParts() on controller PartsAPI.Controllers.PartsController (PartsAPI).
+2024-08-28 18:08:41.426 +12:00 [INF] Executing action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI) - Validation state: "Valid"
+2024-08-28 18:08:41.431 +12:00 [INF] Executed action method PartsAPI.Controllers.PartsController.GetParts (PartsAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0163ms.
+2024-08-28 18:08:41.435 +12:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PartsAPI.Models.Part, PartsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-28 18:08:41.440 +12:00 [INF] Executed action PartsAPI.Controllers.PartsController.GetParts (PartsAPI) in 43.4041ms
+2024-08-28 18:08:41.443 +12:00 [INF] Executed endpoint 'PartsAPI.Controllers.PartsController.GetParts (PartsAPI)'
+2024-08-28 18:08:41.445 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7267/api/Parts - 200 null application/json; charset=utf-8 59.5813ms
